@@ -1,0 +1,13 @@
+.serch-container{
+    background-color: rgb(28, 39, 39);
+    line-height: 50px;
+    padding: 10px;
+}
+.serch-container input{
+    width: 75%;
+   
+}
+ 
+.title{
+    color: darkolivegreen;
+}
