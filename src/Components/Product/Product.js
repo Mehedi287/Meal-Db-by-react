@@ -4,11 +4,11 @@ import './Product.css'
 
 const Product = (props) => {
     const { strMealThumb, strMeal, strCategory, strInstructions } = props.meal
-    console.log(props.meal);
+    // console.log(props.meal);
     return (
         <div className="product">
             <h3>{strMeal}</h3>
-            <img src={strMealThumb} alt="" />
+            <img onClick={() => props.handleClicked(props.meal)} src={strMealThumb} alt="" />
             <p className="">{strInstructions}</p>
         </div>
     );
