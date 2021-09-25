@@ -1,12 +1,19 @@
 .serch-container{
     background-color: rgb(28, 39, 39);
-    line-height: 50px;
+    line-height: 119px;
     padding: 10px;
+    height: 132px;
 }
-.serch-container input{
-    width: 75%;
-   
+ 
+ .serch-container input {
+    height: 30%;
+    width: 70%;
 }
+  
+ .serch-container button{
+    height: 35%;
+    width: 10%;
+ }
  
 .title{
     color: darkolivegreen;

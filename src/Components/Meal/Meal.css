@@ -1,0 +1,14 @@
+.meals-container{
+display: grid;
+grid-template-columns: 3fr 1fr;
+padding: 20px;
+}
+.meal{
+    
+    border-bottom: 3px solid rgb(169, 169, 177);
+    margin-right: 20px;
+}
+.meals-details{
+    border-left:3px solid rgb(238, 228, 228); ;
+}
+
